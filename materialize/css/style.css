@@ -1,0 +1,29 @@
+nav{
+	background: blue;
+	margin-bottom: 50px;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/* прибиваем футер вниз */
+main{
+	flex: 1 0 auto;
+}
+#mobile-demo{
+	display: none;
+}
+.parallax-container{
+	height: 300px;
+}
+.waves-mycolor{
+	background: red;
+}
+.btn-large{
+	margin-bottom: 40px;
+}
+.row{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
